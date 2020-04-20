@@ -1,0 +1,420 @@
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    font-size: 18px;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+html,body
+{
+  max-width:100%;
+  overflow-x:hidden;
+  background-color: #EF3535!important;
+  scroll-behavior: smooth;
+
+}
+
+.img-fluid{
+  border-radius: 5px;
+}
+.fa-facebook{
+  color: white;
+ 
+}
+
+#mybutton {
+  position: fixed;
+  top: 25%;
+  right: -10px;
+  cursor: pointer;
+  z-index: 2;
+          
+}
+.nav-link.active{
+  color:#ffffff;
+  font-size: 32px;
+  background: none !important;
+  border-bottom: 2px solid white;
+}
+
+.nav-link:hover{
+  color: white;
+}
+.tab-pane{
+font-size: 18px;
+}
+.tab-pane.active {
+  animation: slide-down 1s ease-out;
+}
+
+@keyframes slide-down {
+  0% { opacity: 0; transform: translateY(100%); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.nav-link{
+  color: #ffffff80;
+  font-size: 28px;
+}
+#section2{
+ 
+  background-color: #EF3535!important;
+}
+
+
+.section5
+{
+  background-image: linear-gradient(-90deg, #93291e, #ed213a);
+  padding:40px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+ }
+ 
+ ::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+ }
+
+.navbar-dark{
+  background-image: linear-gradient(-90deg, #93291e, #ed213a);
+  margin-bottom: 0px;
+
+  
+}
+
+.navbar{
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+.right
+{
+  color:white;
+  padding:10px;
+  text-align:center;
+  font-size:23px; 
+  line-height:30px;
+  
+}
+.right-para
+{
+  font-size:14px;
+  font-weight: bold;
+
+}
+.right-para-heading
+{
+font-size:45px; 
+line-height:60px; 
+font-weight: bold;
+}
+
+.left
+{
+  color:white;
+  padding:10px;	
+}
+.form:after
+{
+  
+  content:"";
+  position:absolute;
+  background-color: #fff;
+  width:1px;
+  height:430px;
+  top:20px;
+  right:-6px;
+  
+}
+
+input[type="text"],input[type="email"]
+{
+  border-radius:50px;
+    background-color:white;
+    border:#000;
+    
+}
+
+.box{
+  color: white !important;
+}
+div .aboutus,.academics,.profession,.achievements
+{
+  color: white;
+font-size:18px;
+letter-spacing:0.5px;
+line-height:28px;
+}
+
+
+.section4
+{
+  margin-top:-16px;
+  padding:60px;
+  z-index:5;
+
+}
+.section4 h5
+{
+  text-align:center;
+  color:white;
+  font-size:30px;
+  letter-spacing:0.5px;
+}
+
+
+@media screen and (min-width: 1200px) {
+ 
+
+  .container1 {
+    width: 100%;
+    height: 1000px;
+  }
+  
+ 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav li {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  .section3
+  {
+    background-image: linear-gradient(-90deg, #93291e, #ed213a);
+    color:white;
+    clip-path: polygon(0 50%, 100% 25%, 100% 100%, 0% 100%);
+    height: auto;
+    padding: 25% 0 5% 0;
+  }
+
+  .section3 li{
+    font-weight: lighter;
+  }
+  
+  .section3 h5
+  {
+    text-align:left;
+    font-size:25px;
+    letter-spacing:0.5px;
+  }
+  .section3 ul
+  {
+  font-size:18px;
+  line-height:60px;
+  }
+  
+  
+  .section1
+  {
+  
+    color:#fff;
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+    height: 115vh;
+    margin-top: 0px;
+    background-image: linear-gradient(-90deg, #93291e, #ed213a);
+    box-shadow: 0 4px 4px 4px black;
+  }
+  .section1 p
+  {
+  
+  letter-spacing:0.5px;
+  line-height:28px;	
+  font-size:14px;
+  }
+  
+  .tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  
+  .tab-slider--tabs {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: #fff;
+    height: 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #345F90;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    border-radius: 35px;
+  }
+  
+  .tab-slider--tabs.slide:after { left: 50%; }
+  
+  .tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: #345F90;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .tab-slider--trigger.active { color: #fff; }
+  
+  .tab-slider--body { margin-bottom: 20px; }
+  
+button.navbar-toggler{
+  border-radius: 25px;
+  border: none;
+  background-color: transparent;
+  color: black !important;
+  opacity: 1;
+ 
+}
+
+.desktop-hide{
+  display: none !important;
+}
+
+}
+
+
+@media(min-width:450px) and (max-width:675px)
+{
+	.form:after
+{
+	
+	content:"";
+	position:absolute;
+	background-color: #fff;
+	width:100%;
+	height:2px;
+	top:100%;
+	right:-6px;
+	
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+  .section1
+  {
+    color:#fff;
+    
+    height: auto;
+    margin-top: 0px;
+    background-image: linear-gradient(-90deg, #93291e, #ed213a);
+    box-shadow: 0 4px 4px 4px black;
+  }
+  .section1 p
+  {
+  
+  letter-spacing:0.5px;
+  line-height:28px;	
+  font-size:14px;
+  }
+  
+  
+  .section3
+  {
+    background-image: linear-gradient(-90deg, #93291e, #ed213a);
+    color:white;
+    
+    height: auto;
+   
+  }
+
+  .section3 li{
+    font-weight: lighter;
+  }
+  
+  .section3 h5
+  {
+    text-align:left;
+    font-size:25px;
+    letter-spacing:0.5px;
+  }
+  .section3 ul
+  {
+  font-size:18px;
+  line-height:60px;
+  }
+  
+  .desktop-hide{
+    display: block !important;
+  }
+
+  .mobile-hide{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  video{
+      width: 100%;
+      height: auto;
+  }
+}
